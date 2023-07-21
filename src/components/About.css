@@ -7,9 +7,11 @@
     text-align: center;
     background-color: aliceblue;
     position: absolute;
+    overflow: scroll;
+        -webkit-overflow-scrolling: touch;
 }
 
-h1 {
+#about h1 {
     width: 90%;
     margin: 5%;
     border: ridge black 10px;
@@ -17,4 +19,45 @@ h1 {
     position: sticky;
     top: 0;
     background-color: gray;
+}
+
+#about h2 {
+    margin: 50px;
+}
+
+#about #cogent-infotech {
+    height: auto;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 900px) {
+    #about #cogent-infotech {
+        flex-direction: column-reverse;
+    }
+}
+
+#about #cogent-article {
+    width: 40%;
+    margin: auto;
+    text-align: justify;
+}
+
+@media screen and (max-width: 900px) {
+    #about #cogent-article {
+        width: 90%;
+    }
+}
+
+#about #java-certification {
+    width: 50%;
+    margin: auto;
+}
+
+@media screen and (max-width: 900px) {
+    #about #java-certification {
+        width: 90%;
+        margin-bottom: 50px;
+    }
 }
