@@ -1,0 +1,10 @@
+#skills {
+    border: solid black;
+    display: inline-block;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: aliceblue;
+    position: absolute;
+}
