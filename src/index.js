@@ -8,6 +8,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+/**
+ * Variable root renders App.js component
+ * Go to App.js from here
+ */
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
         <App />

@@ -1,0 +1,180 @@
+/*Div for entire About component*/
+#about {
+    border: solid black;
+    display: inline-block;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: aliceblue;
+    position: absolute;
+    overflow: scroll;
+        -webkit-overflow-scrolling: touch;
+}
+
+/*Heading at top of About page*/
+#about h1 {
+    width: 90%;
+    margin: 5%;
+    border: ridge black 10px;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    background-color: gray;
+}
+
+/*Recent achievements heading*/
+#about #recent-achievements-heading {
+    margin: 50px;
+}
+
+/*Java certification heading*/
+#about #cogent-heading {
+    margin: 50px;
+}
+
+/*Div containing Cogent Infotech section*/
+#about #cogent-section {
+    height: auto;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+/*Stacks certification picture on top of article in Cogent Infotech section on screens with smaller width*/
+@media screen and (max-width: 900px) {
+    #about #cogent-section {
+        flex-direction: column-reverse;
+    }
+}
+
+/*Article pertaining to Cogent Infotech*/
+#about #cogent-article {
+    width: 40%;
+    margin: auto;
+    text-align: justify;
+}
+
+/*Increase Cogent article width to fit smaller screens better*/
+@media screen and (max-width: 900px) {
+    #about #cogent-article {
+        width: 90%;
+    }
+}
+
+/*Aligns list item bullets in Cogent article text to left*/
+#about #cogent-ul {
+    padding-left: 15px;
+}
+
+/*Java certification img container*/
+#about #java-certification {
+    width: 50%;
+    margin: auto;
+}
+
+/*Increase java certification img width and space below to fit smaller screens better*/
+@media screen and (max-width: 900px) {
+    #about #java-certification {
+        width: 90%;
+        margin-bottom: 50px;
+    }
+}
+
+/*Revature pep labs training heading*/
+#about #revature-heading {
+    margin: 50px;
+}
+
+/*Div containing revature pep lab training information*/
+#about #revature-section {
+    height: auto;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+/*Stacks Revature img on top of article in Revature information section on screens with smaller width*/
+@media screen and (max-width: 900px) {
+    #about #revature-section {
+        flex-direction: column;
+    }
+}
+
+/*Revature pep lab img*/
+#about #revature-img {
+    width: 40%;
+    margin: auto;
+    margin-right: 10%;
+}
+
+/*Increase Revature pep lab img width and space below to fit smaller screens better*/
+@media screen and (max-width: 900px) {
+    #about #revature-img {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+}
+
+/*Revature pep lab article*/
+#about #revature-article {
+    width: 50%;
+    margin: auto;
+    text-align: justify;
+}
+
+/*Increase Revature article width to fit smaller screens better*/
+@media screen and (max-width: 900px) {
+    #about #revature-article {
+        width: 90%;
+    }
+}
+
+/*Computer science degree heading*/
+#about #bscs-heading {
+    margin: 50px;
+}
+
+/*Div containing Computer science degree*/
+#about #bscs-section {
+    height: auto;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+/*Stacks bscs degree img on top of article in bscs-section section on screens with smaller width*/
+@media screen and (max-width: 900px) {
+    #about #bscs-section {
+        flex-direction: column-reverse;
+    }
+}
+
+/*Article of computer science degree*/
+#about #bscs-article {
+    width: 40%;
+    margin: auto;
+    text-align: justify;
+}
+
+/*Increase bscs degree article width to fit smaller screens better*/
+@media screen and (max-width: 900px) {
+    #about #bscs-article {
+        width: 90%;
+    }
+}
+
+/*Img of computer science degree*/
+#about #bscs-img {
+    width: 50%;
+    margin: auto;
+}
+
+/*Increase bscs degree img width and space below to fit smaller screens better*/
+@media screen and (max-width: 900px) {
+    #about #bscs-img {
+        width: 90%;
+        margin-bottom: 50px;
+    }
+}
