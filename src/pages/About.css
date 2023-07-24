@@ -24,7 +24,7 @@
 }
 
 /*Recent achievements heading*/
-#about #recent-achievements-heading {
+#about #my-achievements-heading {
     margin: 50px;
 }
 
@@ -176,5 +176,55 @@
     #about #bscs-img {
         width: 90%;
         margin-bottom: 50px;
+    }
+}
+
+/*BBA heading*/
+#about #bba-heading {
+    margin: 50px;
+}
+
+/*Div containing bba degree information*/
+#about #bba-section {
+    height: auto;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+/*Stacks bba degree img on top of article in bba degree information section on screens with smaller width*/
+@media screen and (max-width: 900px) {
+    #about #bba-section {
+        flex-direction: column;
+    }
+}
+
+/*bba degree img*/
+#about #bba-img {
+    width: 50%;
+    margin: auto;
+    margin-right: 10%;
+}
+
+/*Increase bba degree img width and space below to fit smaller screens better*/
+@media screen and (max-width: 900px) {
+    #about #bba-img {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+}
+
+/*bba degree article*/
+#about #bba-article {
+    width: 40%;
+    margin: auto;
+    text-align: justify;
+}
+
+/*Increase bba degree article width to fit smaller screens better*/
+@media screen and (max-width: 900px) {
+    #about #bba-article {
+        width: 90%;
     }
 }
