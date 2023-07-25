@@ -21,6 +21,7 @@
     position: sticky;
     top: 0;
     background-color: gray;
+    z-index: 1;
 }
 
 /*Recent achievements heading*/
@@ -45,6 +46,7 @@
 @media screen and (max-width: 900px) {
     #about #cogent-section {
         flex-direction: column-reverse;
+        margin: 50px 0px;
     }
 }
 
@@ -98,6 +100,7 @@
 @media screen and (max-width: 900px) {
     #about #revature-section {
         flex-direction: column;
+        margin: 50px 0px;
     }
 }
 
@@ -148,6 +151,7 @@
 @media screen and (max-width: 900px) {
     #about #bscs-section {
         flex-direction: column-reverse;
+        margin: 50px 0px;
     }
 }
 
@@ -196,6 +200,7 @@
 @media screen and (max-width: 900px) {
     #about #bba-section {
         flex-direction: column;
+        margin: 50px 0px;
     }
 }
 

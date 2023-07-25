@@ -8,16 +8,16 @@ function About() {
     return (
         <div id="about">
             {/* Heading at top of about page */}
-            <h1>What To Know About Me?</h1>
-            <h2 id="my-achievements-heading">My Achievements</h2><hr></hr>
+            <h1>What To Know About Me</h1>
+            <h2 id="my-achievements-heading">Achievements</h2><hr></hr>
             <h4 id="cogent-heading">Advanced Java Certification</h4>
             {/* Java certification section */}
             <div id="cogent-section">
                 <article id="cogent-article"><strong>Greetings,</strong><br></br><br></br>&emsp; 
                 My name is <strong><em> Joshua Gardner</em></strong>. My most recent achievement as a
                 developer was that on May 12, 2023 I completed a <strong>Full Stack Java Developer </strong> 
-                Course through Cogent Infotech. The course was 8 weeks and full time from 9am - 6pm Monday - Friday
-                covering a broad range of topics through a hands on approach including
+                Course through <em>Cogent Infotech</em>. The course was 8 weeks and full time from 9am - 6pm Monday - Friday
+                covering a broad range of topics with a hands on approach including
                 but not limited to: <br></br><br></br>
                     <ul id="cogent-ul">
                         <li><strong>Front-end:</strong> HTML5, CSS3, BootStrap, JavaScript, TypeScript, Angular Framework, React JS Library</li><br></br>
@@ -32,7 +32,7 @@ function About() {
             {/* Revature section */}
             <div id="revature-section">
                 <img id="revature-img" src={process.env.PUBLIC_URL + "Revature.png"} alt="Revature Logo"></img>
-                <article id="revature-article">&emsp;<strong>After graduating</strong> with a computer science degree, 
+                <article id="revature-article">&emsp;<strong>After graduating</strong> with a <strong>computer science degree</strong>, 
                 I began applying for developer roles and recognized I wasn't going to be able to find a job without additional 
                 knowledge in more <strong>modern tools and technologies</strong> than I had learned while I was obtaining my 
                 formal education computer science degree. I had applied for a <strong>Java software developer</strong> role 
