@@ -1,3 +1,4 @@
+/*Div for entire MyProjects component*/
 #my-projects {
     border: solid black;
     display: inline-block;
@@ -7,4 +8,44 @@
     text-align: center;
     background-color: aliceblue;
     position: absolute;
+    overflow: scroll;
+        -webkit-overflow-scrolling: touch;
+}
+
+/*Heading at top of MyProjects page*/
+#my-projects h1 {
+    width: 90%;
+    margin: 5%;
+    border: ridge black 10px;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    background-color: gray;
+    z-index: 1;
+}
+
+
+/*My Projects heading*/
+#my-projects #my-projects-heading {
+    margin: 50px;
+}
+
+/*User forum heading*/
+#my-projects #user-forum-heading {
+    margin: 50px;
+}
+
+/*Div containing user forum section*/
+#my-projects #user-forum-section {
+
+}
+
+/*User forum images*/
+#my-projects #user-forum-img {
+
+}
+
+/*User forum article*/
+#my-projects #user-forum-article {
+
 }
