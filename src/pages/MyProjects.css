@@ -30,22 +30,51 @@
     margin: 50px;
 }
 
-/*User forum heading*/
-#my-projects #user-forum-heading {
+/*DoConnect heading*/
+#my-projects #doconnect-heading {
     margin: 50px;
 }
 
-/*Div containing user forum section*/
-#my-projects #user-forum-section {
-
+/*Div containing DoConnect section*/
+#my-projects #doconnect-section {
+    height: auto;
+    margin: 50px;
 }
 
-/*User forum images*/
-#my-projects #user-forum-img {
-
+/*Decreases margin of DoConnect section on smaller screens*/
+@media screen and (max-width: 900px) {
+    #my-projects #doconnect-section {
+        margin: 50px 0px;
+    }
 }
 
-/*User forum article*/
-#my-projects #user-forum-article {
+/*DoConnect images*/
+#my-projects #doconnect-img {
+    width: 50%;
+    height: auto;
+}
 
+/*Increases width of DoConnect img on smaller screens*/
+@media screen and (max-width: 900px) {
+    #my-projects #doconnect-img {
+        width: 90%;
+    }
+}
+
+
+/*DoConnect article*/
+#my-projects #doconnect-article {
+    margin: auto;
+    width: 90%;
+    text-align: justify;
+}
+
+/*DoConnect Tools Used styles within article*/
+#doconnect-article span {
+    display: block;
+    width: 100%;
+    margin: 15px auto;
+    padding: 5px;
+    background-color: rgb(209, 208, 208);
+    border: outset white;
 }
