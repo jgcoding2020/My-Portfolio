@@ -1,0 +1,53 @@
+/*Java certification heading*/
+#about #cogent-heading {
+    margin: 50px;
+}
+
+/*Div containing Cogent Infotech section*/
+#about #cogent-section {
+    height: auto;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+/*Stacks certification picture on top of article in Cogent Infotech section on screens with smaller width*/
+@media screen and (max-width: 900px) {
+    #about #cogent-section {
+        flex-direction: column-reverse;
+        margin: 50px 0px;
+    }
+}
+
+/*Article pertaining to Cogent Infotech*/
+#about #cogent-article {
+    width: 40%;
+    margin: auto;
+    text-align: justify;
+}
+
+/*Increase Cogent article width to fit smaller screens better*/
+@media screen and (max-width: 900px) {
+    #about #cogent-article {
+        width: 90%;
+    }
+}
+
+/*Aligns list item bullets in Cogent article text to left*/
+#about #cogent-ul {
+    padding-left: 15px;
+}
+
+/*Java certification img container*/
+#about #java-certification {
+    width: 50%;
+    margin: auto;
+}
+
+/*Increase java certification img width and space below to fit smaller screens better*/
+@media screen and (max-width: 900px) {
+    #about #java-certification {
+        width: 90%;
+        margin-bottom: 50px;
+    }
+}

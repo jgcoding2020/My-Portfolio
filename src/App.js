@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./pages/Navbar";
-import MyProjects from "./pages/MyProjects";
-import ContactMe from "./pages/ContactMe";
-import Hobbies from "./pages/Hobbies";
-import Skills from "./pages/Skills";
-import About from "./pages/About";
+import Navbar from "./pages/navbar/Navbar";
+import MyProjects from "./pages/myProjects/MyProjects";
+import ContactMe from "./pages/contactMe/ContactMe";
+import Hobbies from "./pages/hobbies/Hobbies";
+import Skills from "./pages/skills/Skills";
+import About from "./pages/about/About";
 import './App.css';
 
 /**

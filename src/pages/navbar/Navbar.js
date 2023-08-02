@@ -12,7 +12,7 @@ function Navbar() {
             <nav id="nav">
                 <img id="headshot" src={process.env.PUBLIC_URL + "images/headshot.PNG"} alt="Headshot"></img>
                 <button type="button" className="btn btn-primary"><Link className="links" to="About">About Me</Link></button>
-                <button type="button" className="btn btn-primary"><Link className="links" to="MyProjects">My Projects</Link></button>
+                <button type="button" className="btn btn-primary"><Link className="links" to="MyProjects">Projects</Link></button>
                 <button type="button" className="btn btn-primary"><Link className="links" to="Skills">Skills</Link></button>
                 <button type="button" className="btn btn-primary"><Link className="links" to="ContactMe">Contact Me</Link></button>  
                 <button type="button" className="btn btn-primary"><Link className="links" to="Hobbies">Hobbies & Interests</Link></button>  
