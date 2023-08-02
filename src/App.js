@@ -5,6 +5,7 @@ import ContactMe from "./pages/contactMe/ContactMe";
 import Hobbies from "./pages/hobbies/Hobbies";
 import Skills from "./pages/skills/Skills";
 import About from "./pages/about/About";
+import Home from "./pages/home/Home";
 import './App.css';
 
 /**
@@ -17,7 +18,7 @@ function App() {
       <main id="main">
         <Navbar></Navbar>
         <Routes>
-          <Route path="/" element={<About />} />
+          <Route path="/" element={<Home />} />
           <Route path="About" element={<About />} />
           <Route path="MyProjects" element={<MyProjects />} />
           <Route path="ContactMe" element={<ContactMe />} />
