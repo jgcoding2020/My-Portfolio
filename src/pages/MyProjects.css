@@ -52,6 +52,7 @@
 #my-projects #doconnect-img {
     width: 50%;
     height: auto;
+    margin: 50px auto;
 }
 
 /*Increases width of DoConnect img on smaller screens*/

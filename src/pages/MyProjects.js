@@ -1,4 +1,5 @@
 import './MyProjects.css';
+import DoConnectSlider from './imageSliders/DoConnectSlider.js';
 
 /**
  * MyProjects function contains information about my projects pertaining to being a developer
@@ -13,7 +14,7 @@ function MyProjects() {
             <h4 id="doconnect-heading"> DoConnect</h4>
             {/* DoConnect section */}
             <div id="doconnect-section">
-                <img id="doconnect-img" src={process.env.PUBLIC_URL + "Graduation_Certificate.png"}></img>
+                <div id="doconnect-img" alt="DoConnect Images">{DoConnectSlider}</div>
                 <article id="doconnect-article">&emsp;<em>DoConnect</em> is a <strong>full stack web application</strong> forum where users can
                     post answers to questions posted by other users. Admin are notified when a user posts a question or answer by email and must log in
                     to approve the posts before they are visible to users. Users can also chat with other users through <strong>direct messaging </strong>

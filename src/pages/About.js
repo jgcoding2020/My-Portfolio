@@ -26,12 +26,12 @@ function About() {
                     </ul> 
                 Overall, the course was a <strong>great learning experience</strong>, and I fully enjoyed it.    
                 </article>
-                <img id="java-certification" src={process.env.PUBLIC_URL + "Graduation_Certificate.png"} alt="Advanced Java Certification"></img>
+                <img id="java-certification" src={process.env.PUBLIC_URL + "images/Graduation_Certificate.png"} alt="Advanced Java Certification"></img>
             </div><hr></hr>
             <h4 id="revature-heading">Java Software Developer Training</h4>
             {/* Revature section */}
             <div id="revature-section">
-                <img id="revature-img" src={process.env.PUBLIC_URL + "Revature.png"} alt="Revature Logo"></img>
+                <img id="revature-img" src={process.env.PUBLIC_URL + "images/Revature.png"} alt="Revature Logo"></img>
                 <article id="revature-article">&emsp;<strong>After graduating</strong> with a <strong>computer science degree</strong>, 
                 I began applying for developer roles and recognized I wasn't going to be able to find a job without additional 
                 knowledge in more <strong>modern tools and technologies</strong> than I had learned while I was obtaining my 
@@ -57,12 +57,12 @@ function About() {
                 I really got sucked in and had to learn more. I then began learning <strong>JavaScript</strong> and decided that it was time for 
                 me to return to school for a <em>second baccalaureate</em> in <strong>computer science</strong>. In the summer of 2020 I began my coursework 
                 full time at <strong>Florida Atlantic University</strong> in Boca Raton, and I graduated this past December 16, 2022.</article>
-                <img id="bscs-img" src={process.env.PUBLIC_URL + "BSCS_Degree.png"} alt="BSCS Degree"></img>
+                <img id="bscs-img" src={process.env.PUBLIC_URL + "images/BSCS_Degree.png"} alt="BSCS Degree"></img>
             </div><hr></hr>
             <h4 id="bba-heading">Bachelor's of Business Administration</h4>
             {/* Business administration degree section */}
             <div id="bba-section">
-                <img id="bba-img" src={process.env.PUBLIC_URL + "BBA_Degree.png"} alt="BBA Degree"></img>
+                <img id="bba-img" src={process.env.PUBLIC_URL + "images/BBA_Degree.png"} alt="BBA Degree"></img>
                 <article id="bba-article">&emsp;My first <em>bachelor's degree</em> was in <strong>business administration </strong> 
                 with a <em>double major</em> in management and marketing. There were many <em>logical</em> reasons why it made 
                 sense to me at the time to get a degree in business. The top reasons were that <strong>Florida Atlantic University </strong>
