@@ -23,7 +23,7 @@ function CogentInfotech() {
                     </ul>
                     Overall, the course was a <strong>great learning experience</strong>, and I fully enjoyed it.
                 </article>
-                <img id="java-certification" src={process.env.PUBLIC_URL + "images/Graduation_Certificate.png"} alt="Advanced Java Certification"></img>
+                <img id="java-certification" src={process.env.PUBLIC_URL + "images/aboutImages/Graduation_Certificate.png"} alt="Advanced Java Certification"></img>
             </div><hr></hr>
         </>
     );

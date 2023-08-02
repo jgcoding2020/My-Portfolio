@@ -10,7 +10,7 @@ function Revature() {
             <h4 id="revature-heading">Java Software Developer Training</h4>
             {/* Revature section */}
             <div id="revature-section">
-                <img id="revature-img" src={process.env.PUBLIC_URL + "images/Revature.png"} alt="Revature Logo"></img>
+                <img id="revature-img" src={process.env.PUBLIC_URL + "images/aboutImages/Revature.png"} alt="Revature Logo"></img>
                 <article id="revature-article">&emsp;<strong>After graduating</strong> with a <strong>computer science degree</strong>,
                     I began applying for developer roles and recognized I wasn't going to be able to find a job without additional
                     knowledge in more <strong>modern tools and technologies</strong> than I had learned while I was obtaining my

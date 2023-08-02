@@ -21,7 +21,7 @@ function BSCS () {
                     I really got sucked in and had to learn more. I then began learning <strong>JavaScript</strong> and decided that it was time for
                     me to return to school for a <em>second baccalaureate</em> in <strong>computer science</strong>. In the summer of 2020 I began my coursework
                     full time at <strong>Florida Atlantic University</strong> in Boca Raton, and I graduated this past December 16, 2022.</article>
-                <img id="bscs-img" src={process.env.PUBLIC_URL + "images/BSCS_Degree.png"} alt="BSCS Degree"></img>
+                <img id="bscs-img" src={process.env.PUBLIC_URL + "images/aboutImages/BSCS_Degree.png"} alt="BSCS Degree"></img>
             </div><hr></hr>
         </>
     );
