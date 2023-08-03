@@ -1,5 +1,5 @@
 import "./DoConnect.css";
-import DoConnectSlider from '../imageSliders/DoConnectSlider.js';
+import DoConnectSlider from "./DoConnectSlider";
 
 /**
  * Component containing information regarding project DoConnect

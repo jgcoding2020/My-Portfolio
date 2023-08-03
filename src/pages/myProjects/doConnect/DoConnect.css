@@ -26,7 +26,7 @@
 /*Increases width of DoConnect img on smaller screens*/
 @media screen and (max-width: 900px) {
     #my-projects #doconnect-img {
-        width: 90%;
+        width: 75%;
     }
 }
 
@@ -46,3 +46,8 @@
     background-color: rgb(209, 208, 208);
     border: outset white;
 }
+
+/*doConnectSlider arrows*/
+.slick-prev:before, .slick-next:before {
+    color: black!important;
+  }
