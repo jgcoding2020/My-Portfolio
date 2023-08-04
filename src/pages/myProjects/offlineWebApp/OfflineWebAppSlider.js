@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 /**
  * Component produces react-slick slider carousel  
- * @returns <Slider/> with OfflineWebApp project images
+ * @returns <Slider/> with Offline Web App project images
  */
 const OfflineWebAppSlider = () => {
   const settings = {
@@ -56,6 +56,9 @@ const OfflineWebAppSlider = () => {
       </div>
       <div>
         <img decoding="async" src={`${offlineWebAppImagePath}created_form.png`} alt="created_form.png" />
+      </div>
+      <div>
+        <img decoding="async" src={`${offlineWebAppImagePath}data_analysis.png`} alt="data_analysis.png" />
       </div>
     </Slider>
   );

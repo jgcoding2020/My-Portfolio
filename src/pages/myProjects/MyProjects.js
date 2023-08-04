@@ -1,6 +1,7 @@
 import "./MyProjects.css";
 import DoConnect from "./doConnect/DoConnect";
 import OfflineWebApp from "./offlineWebApp/OfflineWebApp";
+import ShoppingCart from "./shoppingCart/ShoppingCart";
 
 /**
  * MyProjects function contains information about my developer projects
@@ -14,6 +15,7 @@ function MyProjects() {
             <h2 id="my-projects-heading">Projects Completed</h2><hr></hr>
             <DoConnect />
             <OfflineWebApp />
+            <ShoppingCart />
         </div>
     );
 }
