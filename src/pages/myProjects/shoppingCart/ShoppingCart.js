@@ -11,12 +11,11 @@ function ShoppingCart() {
             {/* Shopping Cart section */}
             <div className="project-section">
                 <div className="project-images" alt="ShoppingCart Images">{ShoppingCartSlider}</div>
-                <article className="project-article">&emsp;Designed UML diagrams (class, sequence, state) and CRC cards. 
-                Wrote use cases plus variations and functionality specifications. Utilized 3 interfaces and 6 classes 
-                including sysAPI.java. Implemented java program with design patterns (Iterator, Proxy, observer, Strategy, 
-                Adapter). Users create accounts as buyers or customers. Sellers add products to sell and system keeps track 
-                of products, inventory, price, cost, revenue, and profit per seller. Customers choose number of products to 
-                buy and add/ remove to/ from cart/ check out.
+                <article className="project-article">&emsp;Individuals <strong>establish accounts as buyers or customers</strong>. 
+                Vendors upload items for sale, and the system <em>monitors product details, stock levels, pricing, 
+                expenses, earnings, and seller-specific profits</em>. Clients select the quantity of products for purchase 
+                and manage additions and removals within their <strong>shopping cart</strong> before proceeding to the 
+                <strong> checkout</strong>.
                 <br></br><br></br>
                     <span><strong>Tools used:</strong></span>
                     <span><strong>Front-end:</strong> Swing framework </span>

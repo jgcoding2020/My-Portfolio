@@ -22,43 +22,52 @@ const ShoppingCartSlider = () => {
   return (
     <Slider {...settings}>
       <div>
-        <img decoding="async" src={`${shoppingCartImagePath}create_account.png`} alt="create_account.png" />
+        <img decoding="async" src={`${shoppingCartImagePath}image_1.jpg`} alt="image_1.jpg" />
       </div>
       <div>
-        <img decoding="async" src={`${shoppingCartImagePath}account_created.png`} alt="account_created.png" />
+        <img decoding="async" src={`${shoppingCartImagePath}image_2.jpg`} alt="image_2.jpg" />
       </div>
       <div>
-        <img decoding="async" src={`${shoppingCartImagePath}login_1.png`} alt="login_1.png" />
+        <img decoding="async" src={`${shoppingCartImagePath}image_3.jpg`} alt="image_3.jpg" />
       </div>
       <div>
-        <img decoding="async" src={`${shoppingCartImagePath}no_access.png`} alt="no_access.png" />
+        <img decoding="async" src={`${shoppingCartImagePath}image_4.jpg`} alt="image_4.jpg" />
       </div>
       <div>
-        <img decoding="async" src={`${shoppingCartImagePath}login_2.png`} alt="login_2.png" />
+        <img decoding="async" src={`${shoppingCartImagePath}image_6.jpg`} alt="image_5.jpg" />
       </div>
       <div>
-        <img decoding="async" src={`${shoppingCartImagePath}form_creation_1.png`} alt="form_creation_1.png" />
+        <img decoding="async" src={`${shoppingCartImagePath}image_7.jpg`} alt="image_7.jpg" />
       </div>
       <div>
-        <img decoding="async" src={`${shoppingCartImagePath}admin_page.png`} alt="admin_page.png" />
+        <img decoding="async" src={`${shoppingCartImagePath}image_8.jpg`} alt="image_8.jpg" />
       </div>
       <div>
-        <img decoding="async" src={`${shoppingCartImagePath}access_changed.png`} alt="access_changed.png" />
+        <img decoding="async" src={`${shoppingCartImagePath}image_9.jpg`} alt="image_9.jpg" />
       </div>
       <div>
-        <img decoding="async" src={`${shoppingCartImagePath}form_creation_2.png`} alt="form_creation_2.png" />
+        <img decoding="async" src={`${shoppingCartImagePath}image_10.jpg`} alt="image_10.jpg" />
       </div>
       <div>
-        <img decoding="async" src={`${shoppingCartImagePath}form_creation_3.png`} alt="form_creation_3.png" />
+        <img decoding="async" src={`${shoppingCartImagePath}image_11.jpg`} alt="image_11.jpg" />
       </div>
       <div>
-        <img decoding="async" src={`${shoppingCartImagePath}form_published.jpg`} alt="form_published.jpg" />
+        <img decoding="async" src={`${shoppingCartImagePath}image_12.jpg`} alt="image_12.jpg" />
       </div>
       <div>
-        <img decoding="async" src={`${shoppingCartImagePath}created_form.png`} alt="created_form.png" />
+        <img decoding="async" src={`${shoppingCartImagePath}image_13.jpg`} alt="image_13.jpg" />
       </div>
       <div>
-        <img decoding="async" src={`${shoppingCartImagePath}data_analysis.png`} alt="data_analysis.png" />
+        <img decoding="async" src={`${shoppingCartImagePath}image_14.jpg`} alt="image_14.jpg" />
+      </div>
+      <div>
+        <img decoding="async" src={`${shoppingCartImagePath}image_15.jpg`} alt="image_15.jpg" />
+      </div>
+      <div>
+        <img decoding="async" src={`${shoppingCartImagePath}image_16.jpg`} alt="image_16.jpg" />
+      </div>
+      <div>
+        <img decoding="async" src={`${shoppingCartImagePath}image_17.jpg`} alt="image_17.jpg" />
       </div>
     </Slider>
   );

@@ -11,13 +11,14 @@ function OfflineWebApp() {
             {/* OfflineWebApp section */}
             <div className="project-section">
                 <div className="project-images" alt="OfflineWebApp Images">{OfflineWebAppSlider}</div>
-                <article className="project-article">&emsp;The <strong>BLOWFELD</strong> system is an <strong>offline web 
-                application</strong> hosted using <em>Docker</em>, designed to efficiently <em>collect, store, and access 
-                large amounts of data</em>. It comprises five sub-systems, each serving a specific purpose. These subsystems 
-                handle <strong> data collection, storage, user access, data processing, and analysis</strong>.<br></br><br></br>
+                <article className="project-article">&emsp;The <strong>offline web 
+                application</strong> is designed to be hosted using <em>Docker</em>, and it's purpose is to assist in 
+                efficiently <em>collecting, storing, and easily accessing large amounts of data</em>. It comprises five 
+                sub-systems, each serving a specific purpose. These subsystems handle <strong> data collection, storage, 
+                user access, data processing, and analysis</strong>.<br></br><br></br>
                 <strong>The system:</strong>
                 <ul>
-                    <li>Permits extent of application use by individual access levels.</li>
+                    <li>Permits extent of application use based on individual's access level.</li>
                     <li>Creates tailored forms to collect data.</li>
                     <li>Enforces data validation on all questions.</li>
                     <li>Securely stores all the collected data.</li>
