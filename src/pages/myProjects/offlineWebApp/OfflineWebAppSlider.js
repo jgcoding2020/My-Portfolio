@@ -22,43 +22,40 @@ const OfflineWebAppSlider = () => {
   return (
     <Slider {...settings}>
       <div>
-        <img decoding="async" src={`${offlineWebAppImagePath}create_account.png`} alt="create_account.png" />
+        <img decoding="async" src={`${offlineWebAppImagePath}image_1.png`} alt="image_1.png" />
       </div>
       <div>
-        <img decoding="async" src={`${offlineWebAppImagePath}account_created.png`} alt="account_created.png" />
+        <img decoding="async" src={`${offlineWebAppImagePath}image_2.png`} alt="image_2.png" />
       </div>
       <div>
-        <img decoding="async" src={`${offlineWebAppImagePath}login_1.png`} alt="login_1.png" />
+        <img decoding="async" src={`${offlineWebAppImagePath}image_3.png`} alt="image_3.png" />
       </div>
       <div>
-        <img decoding="async" src={`${offlineWebAppImagePath}no_access.png`} alt="no_access.png" />
+        <img decoding="async" src={`${offlineWebAppImagePath}image_4.png`} alt="image_4.png" />
       </div>
       <div>
-        <img decoding="async" src={`${offlineWebAppImagePath}login_2.png`} alt="login_2.png" />
+        <img decoding="async" src={`${offlineWebAppImagePath}image_6.png`} alt="image_5.png" />
       </div>
       <div>
-        <img decoding="async" src={`${offlineWebAppImagePath}form_creation_1.png`} alt="form_creation_1.png" />
+        <img decoding="async" src={`${offlineWebAppImagePath}image_7.png`} alt="image_7.png" />
       </div>
       <div>
-        <img decoding="async" src={`${offlineWebAppImagePath}admin_page.png`} alt="admin_page.png" />
+        <img decoding="async" src={`${offlineWebAppImagePath}image_8.png`} alt="image_8.png" />
       </div>
       <div>
-        <img decoding="async" src={`${offlineWebAppImagePath}access_changed.png`} alt="access_changed.png" />
+        <img decoding="async" src={`${offlineWebAppImagePath}image_9.png`} alt="image_9.png" />
       </div>
       <div>
-        <img decoding="async" src={`${offlineWebAppImagePath}form_creation_2.png`} alt="form_creation_2.png" />
+        <img decoding="async" src={`${offlineWebAppImagePath}image_10.png`} alt="image_10.png" />
       </div>
       <div>
-        <img decoding="async" src={`${offlineWebAppImagePath}form_creation_3.png`} alt="form_creation_3.png" />
+        <img decoding="async" src={`${offlineWebAppImagePath}image_11.png`} alt="image_11.png" />
       </div>
       <div>
-        <img decoding="async" src={`${offlineWebAppImagePath}form_published.jpg`} alt="form_published.jpg" />
+        <img decoding="async" src={`${offlineWebAppImagePath}image_12.png`} alt="image_12.png" />
       </div>
       <div>
-        <img decoding="async" src={`${offlineWebAppImagePath}created_form.png`} alt="created_form.png" />
-      </div>
-      <div>
-        <img decoding="async" src={`${offlineWebAppImagePath}data_analysis.png`} alt="data_analysis.png" />
+        <img decoding="async" src={`${offlineWebAppImagePath}image_13.png`} alt="image_13.png" />
       </div>
     </Slider>
   );
