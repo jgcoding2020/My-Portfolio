@@ -34,7 +34,10 @@ const OfflineWebAppSlider = () => {
         <img decoding="async" src={`${offlineWebAppImagePath}image_4.png`} alt="image_4.png" />
       </div>
       <div>
-        <img decoding="async" src={`${offlineWebAppImagePath}image_6.png`} alt="image_5.png" />
+        <img decoding="async" src={`${offlineWebAppImagePath}image_5.png`} alt="image_5.png" />
+      </div>
+      <div>
+        <img decoding="async" src={`${offlineWebAppImagePath}image_6.png`} alt="image_6.png" />
       </div>
       <div>
         <img decoding="async" src={`${offlineWebAppImagePath}image_7.png`} alt="image_7.png" />
@@ -49,7 +52,7 @@ const OfflineWebAppSlider = () => {
         <img decoding="async" src={`${offlineWebAppImagePath}image_10.png`} alt="image_10.png" />
       </div>
       <div>
-        <img decoding="async" src={`${offlineWebAppImagePath}image_11.png`} alt="image_11.png" />
+        <img decoding="async" src={`${offlineWebAppImagePath}image_11.jpg`} alt="image_11.jpg" />
       </div>
       <div>
         <img decoding="async" src={`${offlineWebAppImagePath}image_12.png`} alt="image_12.png" />

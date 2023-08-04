@@ -22,43 +22,43 @@ const DoConnectSlider = () => {
   return (
     <Slider {...settings}>
       <div>
-        <img decoding="async" src={`${doConnectImagePath}user_login_page.png`} alt="user_login.png" />
+        <img decoding="async" src={`${doConnectImagePath}image_1.png`} alt="image_1.png" />
       </div>
       <div>
-        <img decoding="async" src={`${doConnectImagePath}user_home.png`} alt="user_home.png" />
+        <img decoding="async" src={`${doConnectImagePath}image_2.png`} alt="image_2.png" />
       </div>
       <div>
-        <img decoding="async" src={`${doConnectImagePath}create_question.png`} alt="create_question.png" />
+        <img decoding="async" src={`${doConnectImagePath}image_3.png`} alt="image_3.png" />
       </div>
       <div>
-        <img decoding="async" src={`${doConnectImagePath}search_question.png`} alt="search_question.png" />
+        <img decoding="async" src={`${doConnectImagePath}image_4.png`} alt="image_4.png" />
       </div>
       <div>
-        <img decoding="async" src={`${doConnectImagePath}chat_1.png`} alt="chat_1.png" />
+        <img decoding="async" src={`${doConnectImagePath}image_5.png`} alt="image_5.png" />
       </div>
       <div>
-        <img decoding="async" src={`${doConnectImagePath}chat_2.png`} alt="chat_2.png" />
+        <img decoding="async" src={`${doConnectImagePath}image_6.png`} alt="image_6.png" />
       </div>
       <div>
-        <img decoding="async" src={`${doConnectImagePath}chat_3.png`} alt="chat_3.png" />
+        <img decoding="async" src={`${doConnectImagePath}image_7.png`} alt="image_7.png" />
       </div>
       <div>
-        <img decoding="async" src={`${doConnectImagePath}admin_login_page.png`} alt="admin_login_page.png" />
+        <img decoding="async" src={`${doConnectImagePath}image_8.png`} alt="image_8.png" />
       </div>
       <div>
-        <img decoding="async" src={`${doConnectImagePath}admin_home.png`} alt="admin_home.png.png" />
+        <img decoding="async" src={`${doConnectImagePath}image_9.png`} alt="image_9.png" />
       </div>
       <div>
-        <img decoding="async" src={`${doConnectImagePath}pending_answer.png`} alt="pending_answer.png" />
+        <img decoding="async" src={`${doConnectImagePath}image_10.png`} alt="image_10.png" />
       </div>
       <div>
-        <img decoding="async" src={`${doConnectImagePath}approve_answer.png`} alt="approve_answer.png" />
+        <img decoding="async" src={`${doConnectImagePath}image_11.png`} alt="image_11.png" />
       </div>
       <div>
-        <img decoding="async" src={`${doConnectImagePath}pending_questions.png`} alt="pending_questions.png" />
+        <img decoding="async" src={`${doConnectImagePath}image_12.png`} alt="image_12.png" />
       </div>
       <div>
-        <img decoding="async" src={`${doConnectImagePath}remove_question.png`} alt="remove_question.png" />
+        <img decoding="async" src={`${doConnectImagePath}image_13.png`} alt="image_13.png" />
       </div>
     </Slider>
   );
