@@ -1,5 +1,6 @@
 import "./MyProjects.css";
 import DoConnect from "./doConnect/DoConnect";
+import OfflineWebApp from "./offlineWebApp/OfflineWebApp";
 
 /**
  * MyProjects function contains information about my developer projects
@@ -11,7 +12,8 @@ function MyProjects() {
             {/* Heading at top of MyProjects page */}
             <h1>Projects</h1>
             <h2 id="my-projects-heading">Projects Completed</h2><hr></hr>
-            <DoConnect/>
+            <DoConnect />
+            <OfflineWebApp />
         </div>
     );
 }

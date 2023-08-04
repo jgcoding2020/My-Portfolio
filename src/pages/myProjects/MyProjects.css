@@ -28,3 +28,79 @@
 #my-projects #my-projects-heading {
     margin: 50px;
 }
+
+/*Project heading*/
+#my-projects .project-heading {
+    margin: 50px;
+    margin-bottom: 0px;
+    font-weight: bolder;
+}
+
+/*Div containing project section*/
+#my-projects .project-section {
+    height: auto;
+    margin: 50px;
+    margin-top: 0px;
+}
+
+/*Decreases margin of project section on smaller screens*/
+@media screen and (max-width: 900px) {
+    #my-projects .project-section {
+        margin: 0px 0px 50px 0px;
+    }
+}
+
+/*project images*/
+#my-projects .project-images {
+    width: 50%;
+    height: auto;
+    margin: 50px auto;
+    margin-top: 0px;
+}
+
+/*Increases width of project images on smaller screens*/
+@media screen and (max-width: 900px) {
+    #my-projects .project-images {
+        width: 75%;
+    }
+}
+
+/*Project article*/
+#my-projects .project-article {
+    margin: auto;
+    width: 90%;
+    text-align: justify;
+}
+
+/*Project Tools Used styles within article*/
+#my-projects .project-article span {
+    display: block;
+    width: 100%;
+    margin: 15px auto;
+    padding: 5px;
+    background-color: rgb(209, 208, 208);
+    border: outset white;
+}
+
+/*Image slider arrows*/
+.slick-prev:before,
+.slick-next:before {
+    color: black !important;
+}
+
+/*Provides spacing at top of image slider container*/
+.slick-slider {
+    padding-top: 12%;
+}
+
+/*Provides more spacing at top of image slider container on smaller screens*/
+@media screen and (max-width: 900px) {
+    .slick-slider {
+        padding-top: 25%;
+    }
+}
+
+/*Aligns ul li bullets to left in projects articles*/
+#my-projects .project-article ul {
+    padding: 15px;
+}
