@@ -7,4 +7,17 @@
     text-align: center;
     background-color: aliceblue;
     position: absolute;
+    overflow: scroll;
+        -webkit-overflow-scrolling: touch;
+}
+
+#hobbies img{
+    margin: 50px auto;
+    width: 60%;
+}
+
+@media screen and (max-width: 900px) {
+    #hobbies img {
+        margin-top: 250px;
+    }
 }

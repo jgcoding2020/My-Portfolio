@@ -5,6 +5,9 @@ import "./CogentInfotech.css";
  * @returns <fragment/> CogentInfotech achievment
  */
 function CogentInfotech() {
+
+    const image = process.env.PUBLIC_URL + "images/aboutImages/Graduation_Certificate.png";
+    
     return (
         <>
             <h4 id="cogent-heading">Advanced Java Certification</h4>
@@ -23,7 +26,7 @@ function CogentInfotech() {
                     </ul>
                     Overall, the course was a <strong>great learning experience</strong>, and I fully enjoyed it.
                 </article>
-                <img id="java-certification" src={process.env.PUBLIC_URL + "images/aboutImages/Graduation_Certificate.png"} alt="Advanced Java Certification"></img>
+                <img id="java-certification" src={image} alt="Advanced Java Certification"></img>
             </div><hr></hr>
         </>
     );

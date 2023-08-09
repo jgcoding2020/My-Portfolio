@@ -7,12 +7,12 @@ import OfflineWebAppSlider from "./OfflineWebAppSlider";
 function OfflineWebApp() {
     return (
         <>
-            <h4 className="project-heading"> OfflineWebApp</h4>
+            <h4 className="project-heading"> Offline Web App</h4>
             {/* OfflineWebApp section */}
             <div className="project-section">
                 <div className="project-images" alt="OfflineWebApp Images">{OfflineWebAppSlider}</div>
-                <article className="project-article">&emsp;The <strong>offline web 
-                application</strong> is designed to be hosted using <em>Docker</em>, and it's purpose is to assist in 
+                <article className="project-article">&emsp;The <strong>Offline Web 
+                App</strong> is designed to be hosted using <em>Docker</em>, and it's purpose is to assist in 
                 efficiently <em>collecting, storing, and easily accessing large amounts of data</em>. It comprises five 
                 sub-systems, each serving a specific purpose. These subsystems handle <strong> data collection, storage, 
                 user access, data processing, and analysis</strong>.<br></br><br></br>

@@ -2,6 +2,8 @@ import "./MyProjects.css";
 import DoConnect from "./doConnect/DoConnect";
 import OfflineWebApp from "./offlineWebApp/OfflineWebApp";
 import ShoppingCart from "./shoppingCart/ShoppingCart";
+import SocialMediaWebApp from "./socialMediaWebApp/SocialMediaWebApp";
+import WebProjectPortal from "./webProjectPortal/WebProjectPortal";
 
 /**
  * MyProjects function contains information about my developer projects
@@ -16,6 +18,8 @@ function MyProjects() {
             <DoConnect />
             <OfflineWebApp />
             <ShoppingCart />
+            <SocialMediaWebApp />
+            <WebProjectPortal />
         </div>
     );
 }
