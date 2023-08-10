@@ -16,13 +16,19 @@
     }
 }
 
-/*Navbar headshot img container*/
+/*Navbar headshot img container and project images*/
 img {
     width: 90%;
     margin: auto;
     margin-bottom: 50px;
     display: block;
     border: solid black 5px;
+}
+
+/*headshot modification on hover*/
+#headshot:hover {
+    border: outset aliceblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /*All links contained inside buttons on Navbar*/

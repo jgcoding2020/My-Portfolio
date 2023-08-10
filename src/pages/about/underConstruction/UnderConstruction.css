@@ -1,0 +1,10 @@
+#under-construction img{
+    margin: 50px auto;
+    width: 60%;
+}
+
+@media screen and (max-width: 900px) {
+    #under-construction img {
+        margin-top: 50px;
+    }
+}

@@ -1,23 +1,53 @@
+/*Skills component outer container*/
 #skills {
     border: solid black;
     display: inline-block;
     width: 80%;
     height: 100%;
     margin: auto;
-    text-align: center;
     background-color: aliceblue;
     position: absolute;
     overflow: scroll;
         -webkit-overflow-scrolling: touch;
 }
 
-#skills img{
-    margin: 50px auto;
-    width: 60%;
+/*Selects all strong elements in #skills container*/
+#skills strong {
+    font-size: large;
 }
 
+/*Selects all elements within .card in #skills container*/
+#skills .card {
+    border: solid black;
+}
+
+/*Selects .card-title in #skills container*/
+#skills .card-title {
+    text-align: center;
+}
+
+/*Selects all elements in .card-body within #skills container*/
+#skills .card-body {
+    color: white;
+}
+
+/*Img containing Github mark*/
+#skills #github-mark {
+    margin-top: 50px;
+    margin-bottom: 25px;
+    width: 15%;
+    border: none;
+}
+
+/*Img containing Github logo*/
+#skills #github-logo {
+    width: 15%;
+    border: none;
+}
+
+/*Modifies size of images in skills container on smaller screens*/
 @media screen and (max-width: 900px) {
     #skills img {
-        margin-top: 250px;
+        width: 60% !important;
     }
 }

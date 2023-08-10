@@ -65,13 +65,13 @@
 
 /*Card titles on smaller screens*/
 @media screen and (max-width: 900px) {
-    .card-title {
+    #contact-me .card-title {
         margin-top: 150px;
     }
 }
 
 /*linkedin and email cards on hover*/
-.card:hover {
+#contact-me .card:hover {
     color: black !important;
     border: solid black;
     background-color: aliceblue !important;

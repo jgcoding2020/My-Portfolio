@@ -1,4 +1,5 @@
 import "./About.css";
+import UnderConstruction from "./underConstruction/UnderConstruction";
 import CogentInfotech from "./cogentInfotech/CogentInfotech";
 import Revature from "./revature/Revature";
 import BSCS from "./bscs/BSCS";
