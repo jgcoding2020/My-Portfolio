@@ -1,3 +1,4 @@
+/*Contact Me section container*/
 #contact-me {
     border: solid black;
     display: inline-block;
@@ -7,17 +8,72 @@
     text-align: center;
     background-color: aliceblue;
     position: absolute;
-    overflow: scroll;
-        -webkit-overflow-scrolling: touch;
+    padding: 50px 0px;
 }
 
-#contact-me img{
-    margin: 50px auto;
-    width: 60%;
+/*Linkedin section container*/
+#linkedin {
+    display: inline-block;
+    border: solid black;
+    border-radius: 15px;
+    width: 40%;
+    height: 100%;
+    margin: auto;
+    margin-right: 3%;
 }
 
+/*Linkedin image*/
+#linkedin img {
+    border: none;
+    width: 50%;
+    margin-top: 40%;
+}
+
+/*Linkedin image on smaller screens*/
 @media screen and (max-width: 900px) {
-    #contact-me img {
-        margin-top: 250px;
+    #linkedin img {
+        width: 100%;
+        margin-top: 150px;
     }
+}
+
+/*Email section container*/
+#email {
+    display: inline-block;
+    border: solid black;
+    width: 40%;
+    height: 100%;
+    margin: auto;
+    margin-left: 3%;
+    border-radius: 15px;
+}
+
+/*email image*/
+#email img {
+    border: none;
+    width: 50%;
+    margin-top: 47%;
+}
+
+/*Email image on smaller screens*/
+@media screen and (max-width: 900px) {
+    #email img {
+        width: 100%;
+        margin-top: 165px;
+    }
+}
+
+/*Card titles on smaller screens*/
+@media screen and (max-width: 900px) {
+    .card-title {
+        margin-top: 150px;
+    }
+}
+
+/*linkedin and email cards on hover*/
+.card:hover {
+    color: black !important;
+    border: solid black;
+    background-color: aliceblue !important;
+    box-shadow: 15px 15px 15px 15px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
