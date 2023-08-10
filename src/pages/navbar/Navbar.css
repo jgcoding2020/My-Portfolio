@@ -33,6 +33,7 @@ img {
 
 /*All buttons on Navbar*/
 .btn {
+    color: black;
     width: 100%;
     margin-bottom: 50px;
     text-align: center;
@@ -41,6 +42,7 @@ img {
 
 /*All buttons on Navbar*/
 .btn:hover {
+    color: black;
     border: solid black;
     background-color: aliceblue;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
