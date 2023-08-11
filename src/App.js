@@ -14,7 +14,7 @@ import './App.css';
  */
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <main id="main">
         <Navbar></Navbar>
         <Routes>
