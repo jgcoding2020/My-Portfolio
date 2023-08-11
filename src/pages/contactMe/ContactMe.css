@@ -38,7 +38,7 @@
     height: 50%;
     margin: auto;
     margin-right: 3%;
-    margin-top: 20%;
+    margin-top: 15%;
 }
 
 /*Selects both contact cards*/
@@ -54,7 +54,7 @@
 /*Linkedin image*/
 #linkedin img {
     border: none;
-    width: 40%;
+    width: 30%;
 }
 
 /*Selects linkedin image on smaller screens*/
@@ -75,13 +75,13 @@
     margin: auto;
     margin-left: 3%;
     border-radius: 15px;
-    margin-top: 20%;
+    margin-top: 15%;
 }
 
 /*email image*/
 #email img {
     border: none;
-    width: 40%;
+    width: 30%;
     margin-top: 7%;
 }
 
