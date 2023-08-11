@@ -14,16 +14,16 @@ import './App.css';
  */
 function App() {
   return (
-    <Router basename="/My-Portfolio">
+    <Router basename={process.env.PUBLIC_URL}>
       <main id="main">
         <Navbar></Navbar>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/About" element={<About />} />
-          <Route path="/MyProjects" element={<MyProjects />} />
-          <Route path="/ContactMe" element={<ContactMe />} />
-          <Route path="/Skills" element={<Skills />} />
-          <Route path="/Hobbies" element={<Hobbies />} />
+          <Route path="About" element={<About />} />
+          <Route path="MyProjects" element={<MyProjects />} />
+          <Route path="ContactMe" element={<ContactMe />} />
+          <Route path="Skills" element={<Skills />} />
+          <Route path="Hobbies" element={<Hobbies />} />
         </Routes>
       </main>
     </Router>
