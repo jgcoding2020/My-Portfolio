@@ -94,6 +94,12 @@
     }
 }
 
+@media screen and (min-height: 500px) {
+    #contact-me .card-body {
+        padding-top: 5%;
+    }
+}
+
 /*linkedin and email cards on hover*/
 #contact-me .card:hover {
     color: black !important;
