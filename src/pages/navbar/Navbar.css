@@ -10,7 +10,7 @@
 }
 
 /*Increases height of nav bar to fit screen lengths 900 pixels or less*/
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 912px) {
     #nav {
         height: 100vh;
     }
@@ -23,12 +23,14 @@
     }
 }
 
+/*Selects buttons on navbar screen*/
 @media screen and (max-width: 400px) {
     #nav button{
         font-size: small;
         padding: 10px 0px;
     }
 }
+
 /*Navbar headshot img container and project images*/
 img {
     width: 90%;

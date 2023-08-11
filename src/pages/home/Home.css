@@ -18,7 +18,7 @@
     height: 60%;
     width: 70%;
     margin: 10% 5%;
-    padding: 10% 5%;
+    padding: 12% 5%;
     position: fixed;
     box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2), 0 9px 30px 0 rgba(0, 0, 0, 0.19);
     overflow: scroll;
@@ -32,3 +32,16 @@
     }
 }
 
+/*Introduction responds to fit taller screens*/
+@media screen and (min-height: 600px) {
+    #introduction {       
+        height: 70%;
+    }
+}
+
+/*Introduction responds to fit taller screens*/
+@media screen and (max-height: 500px) {
+    #introduction {       
+        padding: 5% 5%;
+    }
+}
