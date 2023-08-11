@@ -17,7 +17,7 @@ const OfflineWebAppSlider = () => {
     autoplaySpeed: 2500
   };
 
-  const offlineWebAppImagePath = process.env.PUBLIC_URL + "images/myProjectsImages/offlineWebAppImages/";
+  const offlineWebAppImagePath = "images/myProjectsImages/offlineWebAppImages/";
 
   return (
     <Slider {...settings}>

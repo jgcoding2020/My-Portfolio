@@ -17,7 +17,7 @@ const ShoppingCartSlider = () => {
     autoplaySpeed: 2500
   };
 
-  const shoppingCartImagePath = process.env.PUBLIC_URL + "images/myProjectsImages/shoppingCartImages/";
+  const shoppingCartImagePath = "images/myProjectsImages/shoppingCartImages/";
 
   return (
     <Slider {...settings}>

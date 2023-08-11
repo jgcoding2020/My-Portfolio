@@ -17,7 +17,7 @@ const SocialMediaWebAppSlider = () => {
     autoplaySpeed: 2500
   };
 
-  const socialMediaWebAppImagePath = process.env.PUBLIC_URL + "images/myProjectsImages/socialMediaWebAppImages/";
+  const socialMediaWebAppImagePath = "images/myProjectsImages/socialMediaWebAppImages/";
 
   return (
     <Slider {...settings}>

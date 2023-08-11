@@ -24,8 +24,8 @@ function Hobbies() {
                         <p>Darts</p><p>Mountain Biking</p><p>Disc Golf</p>
                     </div>
                     <a href="https://jgcoding2020.github.io/Piano-Portfolio-V2/" target="_blank" >
-                        <img id="piano" src={process.env.PUBLIC_URL + "images/piano.jpg"} alt="piano-image"></img>
-                        <img id="piano-logo" src={process.env.PUBLIC_URL + "images/piano-logo.jpg"} alt="piano-logo"></img>
+                        <img id="piano" src={"images/piano.jpg"} alt="piano-image"></img>
+                        <img id="piano-logo" src={"images/piano-logo.jpg"} alt="piano-logo"></img>
                     </a>
                 </div>
             </div>

@@ -6,12 +6,12 @@ import "./UnderConstruction.css";
  */
 function UnderConstruction() {
 
-    const image = process.env.PUBLIC_URL + "images/";
+    const image = "images/";
 
     return (
         <>
             <div id="under-construction">
-                <img src={process.env.PUBLIC_URL + "images/image_0.png"} alt="under_construction.png"></img>
+                <img src={"images/image_0.png"} alt="under_construction.png"></img>
             </div>
         </>
     );

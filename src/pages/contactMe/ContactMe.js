@@ -13,7 +13,7 @@ function ContactMe() {
                     <div className="card-header">Connect</div>
                     <div className="card-body">
                         <h4 className="card-title">Linkedin</h4>
-                        <img src={process.env.PUBLIC_URL + "images/linkedin.png"} alt="Linkedin logo"></img>
+                        <img src={"images/linkedin.png"} alt="Linkedin logo"></img>
                     </div>
                 </div></a>
             <a href="mailto: jgardn11@gmail.com">
@@ -22,7 +22,7 @@ function ContactMe() {
                     <div className="card-header">Email</div>
                     <div className="card-body">
                         <h4 className="card-title">Gmail</h4>
-                        <img src={process.env.PUBLIC_URL + "images/gmail.png"} alt="email logo"></img>
+                        <img src={"images/gmail.png"} alt="email logo"></img>
                     </div>
                 </div></a>
         </div>

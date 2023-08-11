@@ -6,7 +6,7 @@ import "./CogentInfotech.css";
  */
 function CogentInfotech() {
 
-    const image = process.env.PUBLIC_URL + "images/aboutImages/Graduation_Certificate.png";
+    const image = "images/aboutImages/Graduation_Certificate.png";
     
     return (
         <>

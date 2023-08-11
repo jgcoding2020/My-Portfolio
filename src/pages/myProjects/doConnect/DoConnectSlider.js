@@ -17,7 +17,7 @@ const DoConnectSlider = () => {
     autoplaySpeed: 2500
   };
 
-  const doConnectImagePath = process.env.PUBLIC_URL + "images/myProjectsImages/doConnectImages/";
+  const doConnectImagePath = "images/myProjectsImages/doConnectImages/";
 
   return (
     <Slider {...settings}>

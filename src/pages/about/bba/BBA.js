@@ -10,7 +10,7 @@ function BBA() {
             <h4 id="bba-heading">Bachelor's of Business Administration</h4>
             {/* Business administration degree section */}
             <div id="bba-section">
-                <img id="bba-img" src={process.env.PUBLIC_URL + "images/aboutImages/BBA_Degree.png"} alt="BBA Degree"></img>
+                <img id="bba-img" src={"images/aboutImages/BBA_Degree.png"} alt="BBA Degree"></img>
                 <article id="bba-article">&emsp;My first <em>bachelor's degree</em> was in <strong>business administration </strong>
                     with a <em>double major</em> in management and marketing. There were many <em>logical</em> reasons why it made
                     sense to me at the time to get a degree in business. The top reasons were that <strong>Florida Atlantic University </strong>
