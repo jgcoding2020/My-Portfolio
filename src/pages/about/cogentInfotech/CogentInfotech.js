@@ -15,7 +15,7 @@ function CogentInfotech() {
             <div id="cogent-section">
                 <article id="cogent-article"><strong>Greetings,</strong><br></br><br></br>&emsp;
                     My name is <strong><em> Joshua Gardner</em></strong>. My most recent achievement as a
-                    developer was that on May 12, 2023 I completed a <strong>Full Stack Java Developer </strong>
+                    developer was that on May 12, 2023 I completed a <strong>Full-Stack Java Developer </strong>
                     Course through <em>Cogent Infotech</em>. The course was 8 weeks and full time from 9am - 6pm Monday - Friday
                     covering a broad range of topics with a hands on approach including
                     but not limited to: <br></br><br></br>

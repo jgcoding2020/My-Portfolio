@@ -6,7 +6,7 @@ function Home() {
         <div id="home">
             <div id="introduction">
                 <TypeAnimation
-                    sequence={["Hello, my name is Joshua Gardner, and I am a full stack developer.",
+                    sequence={["Hello, my name is Joshua Gardner. I am a full-stack developer.",
                         1000
                     ]}
                     speed={25}

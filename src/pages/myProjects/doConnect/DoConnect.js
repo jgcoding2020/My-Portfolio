@@ -11,7 +11,7 @@ function DoConnect() {
             {/* DoConnect section */}
             <div className="project-section">
                 <div className="project-images" alt="DoConnect Images">{DoConnectSlider}</div>
-                <article className="project-article">&emsp;<em>DoConnect</em> is a comprehensive <strong>full stack web application</strong> designed as a
+                <article className="project-article">&emsp;<em>DoConnect</em> is a comprehensive <strong>full-stack web application</strong> designed as a
                     <strong> forum</strong> where users can share their <strong>answers to questions</strong> posted by other users. The platform ensures that the
                     content posted is <em>monitored and approved by administrators</em> before being visible to all users. Additionally,
                     the application incorporates <strong>direct messaging</strong> functionality, enabling users to engage in <em>private conversations </em>
