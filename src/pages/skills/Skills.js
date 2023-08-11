@@ -24,8 +24,8 @@ function Skills() {
                     <p className="card-text"><strong>Other familiar technologies</strong>: Jira, MS Teams, MAMP, XXAMP, Docker, Machine Learning, Deep Learning, Altera Quartus II, VMware, Cyberduck, WinSCP, PuTTYgen, PuTTy, Microsoft Word, PowerPoint, Excel, Access, One Note</p>
                     <p className="card-text"><strong>Interested in learning</strong>: .net framework</p>
                     <a href="https://github.com/jgcoding2020" target="_blank" >
-                        <img id="github-mark" src={process.env.PUBLIC_URL + "images/github-mark-white.svg"}></img>
-                        <img id="github-logo" src={process.env.PUBLIC_URL + "images/GitHub_Logo_White.png"}></img>
+                        <img id="github-mark" src={"images/github-mark-white.svg"}></img>
+                        <img id="github-logo" src={"images/GitHub_Logo_White.png"}></img>
                     </a>
                 </div>
             </div>
