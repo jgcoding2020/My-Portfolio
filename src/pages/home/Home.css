@@ -27,8 +27,8 @@
 
 /*Introduction responds to fit smaller screens*/
 @media screen and (max-width: 840px) {
-    #introduction {
-        margin: 25% 5% 0% 5%;
+    #introduction {       
         border-radius: 15px;
     }
 }
+
