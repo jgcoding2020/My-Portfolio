@@ -33,7 +33,7 @@
 @media screen and (max-width: 900px) {
     #linkedin img {
         width: 100%;
-        margin-top: 150px;
+        margin-top: 75px;
     }
 }
 
@@ -59,14 +59,14 @@
 @media screen and (max-width: 900px) {
     #email img {
         width: 100%;
-        margin-top: 165px;
+        margin-top: 100px;
     }
 }
 
 /*Card titles on smaller screens*/
 @media screen and (max-width: 900px) {
     #contact-me .card-title {
-        margin-top: 150px;
+        margin-top: 75px;
     }
 }
 

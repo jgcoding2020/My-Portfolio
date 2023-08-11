@@ -17,7 +17,7 @@ const WebProjectPortalSlider = () => {
     autoplaySpeed: 2500
   };
 
-  const WebProjectPortalImagePath = "images/myProjectsImages/WebProjectPortalImages/";
+  const WebProjectPortalImagePath = "images/myProjectsImages/webProjectPortalImages/";
 
   return (
     <Slider {...settings}>

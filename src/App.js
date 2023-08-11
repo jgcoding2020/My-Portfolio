@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import Navbar from "./pages/navbar/Navbar";
 import MyProjects from "./pages/myProjects/MyProjects";
 import ContactMe from "./pages/contactMe/ContactMe";
@@ -18,7 +18,8 @@ function App() {
       <main id="main">
         <Navbar></Navbar>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="*" element={<Navigate to="Home" />} />
+          <Route path="Home" element={<Home />} />
           <Route path="About" element={<About />} />
           <Route path="MyProjects" element={<MyProjects />} />
           <Route path="ContactMe" element={<ContactMe />} />
