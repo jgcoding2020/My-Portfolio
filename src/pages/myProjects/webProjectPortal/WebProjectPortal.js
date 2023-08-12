@@ -9,7 +9,7 @@ function WebProjectPortal() {
         <>
             <h4 className="project-heading"> Web Project Portal</h4>
             {/* Web Project Portal section */}
-            <div className="project-section">
+            <div id="web-project-portal"className="project-section">
                 <div className="project-images" alt="WebProjectPortal Images">{WebProjectPortalSlider}</div>
                 <article className="project-article">&emsp;This project comprised five distinct segments. 
                 The initial segment involved <em>crafting and executing a web-based bio/resume</em> by employing 

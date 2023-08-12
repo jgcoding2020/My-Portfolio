@@ -9,7 +9,7 @@
     background-color: aliceblue;
     position: absolute;
     overflow: scroll;
-        -webkit-overflow-scrolling: touch;
+    -webkit-overflow-scrolling: touch;
 }
 
 /*Heading at top of MyProjects page*/
@@ -103,4 +103,12 @@
 /*Aligns ul li bullets to left in projects articles*/
 #my-projects .project-article ul {
     padding: 15px;
+}
+
+/*fixes dots in web project portal images on small screens*/
+@media screen and (max-width: 465px) {
+    #web-project-portal .slick-slider {
+        height: 250px;
+        padding-top: 25%;
+    }
 }
