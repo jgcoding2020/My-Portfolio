@@ -22,43 +22,43 @@ const OfflineWebAppSlider = () => {
   return (
     <Slider {...settings}>
       <div>
-        <img decoding="async" src={`${offlineWebAppImagePath}image_1.png`} alt="image_1.png" />
+        <a href={`${offlineWebAppImagePath}image_1.png`} target="_blank"><img decoding="async" src={`${offlineWebAppImagePath}image_1.png`} alt="image_1.png" /></a>
       </div>
       <div>
-        <img decoding="async" src={`${offlineWebAppImagePath}image_2.png`} alt="image_2.png" />
+        <a href={`${offlineWebAppImagePath}image_2.png`} target="_blank"><img decoding="async" src={`${offlineWebAppImagePath}image_2.png`} alt="image_2.png" /></a>
       </div>
       <div>
-        <img decoding="async" src={`${offlineWebAppImagePath}image_3.png`} alt="image_3.png" />
+        <a href={`${offlineWebAppImagePath}image_3.png`} target="_blank"><img decoding="async" src={`${offlineWebAppImagePath}image_3.png`} alt="image_3.png" /></a>
       </div>
       <div>
-        <img decoding="async" src={`${offlineWebAppImagePath}image_4.png`} alt="image_4.png" />
+        <a href={`${offlineWebAppImagePath}image_4.png`} target="_blank"><img decoding="async" src={`${offlineWebAppImagePath}image_4.png`} alt="image_4.png" /></a>
       </div>
       <div>
-        <img decoding="async" src={`${offlineWebAppImagePath}image_5.png`} alt="image_5.png" />
+        <a href={`${offlineWebAppImagePath}image_5.png`} target="_blank"><img decoding="async" src={`${offlineWebAppImagePath}image_5.png`} alt="image_5.png" /></a>
       </div>
       <div>
-        <img decoding="async" src={`${offlineWebAppImagePath}image_6.png`} alt="image_6.png" />
+        <a href={`${offlineWebAppImagePath}image_6.png`} target="_blank"><img decoding="async" src={`${offlineWebAppImagePath}image_6.png`} alt="image_6.png" /></a>
       </div>
       <div>
-        <img decoding="async" src={`${offlineWebAppImagePath}image_7.png`} alt="image_7.png" />
+        <a href={`${offlineWebAppImagePath}image_7.png`} target="_blank"><img decoding="async" src={`${offlineWebAppImagePath}image_7.png`} alt="image_7.png" /></a>
       </div>
       <div>
-        <img decoding="async" src={`${offlineWebAppImagePath}image_8.png`} alt="image_8.png" />
+        <a href={`${offlineWebAppImagePath}image_8.png`} target="_blank"><img decoding="async" src={`${offlineWebAppImagePath}image_8.png`} alt="image_9.png" /></a>
       </div>
       <div>
-        <img decoding="async" src={`${offlineWebAppImagePath}image_9.png`} alt="image_9.png" />
+        <a href={`${offlineWebAppImagePath}image_9.png`} target="_blank"><img decoding="async" src={`${offlineWebAppImagePath}image_9.png`} alt="image_9.png" /></a>
       </div>
       <div>
-        <img decoding="async" src={`${offlineWebAppImagePath}image_10.png`} alt="image_10.png" />
+        <a href={`${offlineWebAppImagePath}image_10.png`} target="_blank"><img decoding="async" src={`${offlineWebAppImagePath}image_10.png`} alt="image_0.png" /></a>
       </div>
       <div>
-        <img decoding="async" src={`${offlineWebAppImagePath}image_11.jpg`} alt="image_11.jpg" />
+        <a href={`${offlineWebAppImagePath}image_11.png`} target="_blank"><img decoding="async" src={`${offlineWebAppImagePath}image_12.png`} alt="image_0.png" /></a>
       </div>
       <div>
-        <img decoding="async" src={`${offlineWebAppImagePath}image_12.png`} alt="image_12.png" />
+        <a href={`${offlineWebAppImagePath}image_12.png`} target="_blank"><img decoding="async" src={`${offlineWebAppImagePath}image_12.png`} alt="image_0.png" /></a>
       </div>
       <div>
-        <img decoding="async" src={`${offlineWebAppImagePath}image_13.png`} alt="image_13.png" />
+        <a href={`${offlineWebAppImagePath}image_13.png`} target="_blank"><img decoding="async" src={`${offlineWebAppImagePath}image_13.png`} alt="image_0.png" /></a>
       </div>
     </Slider>
   );
