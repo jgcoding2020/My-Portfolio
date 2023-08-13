@@ -20,11 +20,17 @@ function App() {
         <Routes>
           <Route path="*" element={<Navigate to="Home" />} />
           <Route path="Home" element={<Home />} />
+          <Route path="/Home" element={<Home />} />
           <Route path="About" element={<About />} />
+          <Route path="/About" element={<About />} />
           <Route path="MyProjects" element={<MyProjects />} />
+          <Route path="/MyProjects" element={<MyProjects />} />
           <Route path="ContactMe" element={<ContactMe />} />
+          <Route path="/ContactMe" element={<ContactMe />} />
           <Route path="Skills" element={<Skills />} />
+          <Route path="/Skills" element={<Skills />} />
           <Route path="Hobbies" element={<Hobbies />} />
+          <Route path="/Hobbies" element={<Hobbies />} />
         </Routes>
       </main>
     </Router>
