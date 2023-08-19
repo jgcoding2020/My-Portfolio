@@ -8,6 +8,10 @@ import About from "./pages/about/About";
 import Home from "./pages/home/Home";
 import './App.css';
 
+/**
+ * App function provides routes throughout all pages components
+ * @returns <Router>, <main>, <Navbar>, <Routes> 
+ */
 function App() {
   return (
     <Router>
@@ -28,4 +32,3 @@ function App() {
 }
 
 export default App;
-
