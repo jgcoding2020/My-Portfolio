@@ -9,8 +9,10 @@ import Home from "./pages/home/Home";
 import './App.css';
 
 /**
- * App function provides routes throughout all pages components
- * @returns <Router>, <main>, <Navbar>, <Routes> 
+ * The main application component that sets up routing and the overall structure of the web application.
+ * It defines routes for various pages and includes the Navbar.
+ *
+ * @returns {JSX.Element} The rendered React element.
  */
 function App() {
   return (
