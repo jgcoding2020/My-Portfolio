@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import Navbar from "./pages/navbar/Navbar";
 import MyProjects from "./pages/myProjects/MyProjects";
 import ContactMe from "./pages/contactMe/ContactMe";
@@ -8,28 +8,18 @@ import About from "./pages/about/About";
 import Home from "./pages/home/Home";
 import './App.css';
 
-/**
- * App function provides routes throughout all pages components
- * @returns <Router>, <main>, <Navbar>, <Routes> 
- */
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <main id="main">
         <Navbar></Navbar>
         <Routes>
-          <Route path="*" element={<Navigate to="Home" />} />
-          <Route path="Home" element={<Home />} />
-          <Route path="/Home" element={<Home />} />
-          <Route path="About" element={<About />} />
+          <Route path="*" element={<Navigate to="/" />} />
+          <Route path="/" element={<Home />} />
           <Route path="/About" element={<About />} />
-          <Route path="MyProjects" element={<MyProjects />} />
           <Route path="/MyProjects" element={<MyProjects />} />
-          <Route path="ContactMe" element={<ContactMe />} />
           <Route path="/ContactMe" element={<ContactMe />} />
-          <Route path="Skills" element={<Skills />} />
           <Route path="/Skills" element={<Skills />} />
-          <Route path="Hobbies" element={<Hobbies />} />
           <Route path="/Hobbies" element={<Hobbies />} />
         </Routes>
       </main>
@@ -38,3 +28,4 @@ function App() {
 }
 
 export default App;
+
